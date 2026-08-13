@@ -24,7 +24,7 @@ the next stock closing price.
 
 ## 🌐 Live Demo
 
-[Live Demo](YOUR_STREAMLIT_URL)
+[Live Demo](https://stock-price-prediction-lstm-pyyqhr7hd9wtstxcg8ycn5.streamlit.app/)
 
 ## 📊 Results
 
@@ -35,3 +35,32 @@ The application provides:
 - MSE
 - RMSE
 - MAE
+
+## 📂 Project Structure
+
+Stock_Price_Prediction/
+│
+├── app.py
+├── main_code.ipynb
+├── requirements.txt
+├── all_stocks_5yr.csv
+├── apple_stock_lstm.keras
+├── stock_scaler.pkl
+├── .gitignore
+└── README.md
+
+
+## 📊 Workflow
+Historical Stock Data
+        ↓
+Data Preprocessing
+        ↓
+Min-Max Scaling
+        ↓
+60-Day Sequences
+        ↓
+LSTM Model
+        ↓
+Prediction
+        ↓
+Actual vs Predicted Visualization

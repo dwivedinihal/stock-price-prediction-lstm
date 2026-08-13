@@ -36,7 +36,7 @@ Stock_Price_Prediction/
 ├── .gitignore
 └── README.md
 
-
+```
 ## 🌐 Live Demo
 
 [Live Demo](https://stock-price-prediction-lstm-pyyqhr7hd9wtstxcg8ycn5.streamlit.app/)

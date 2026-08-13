@@ -22,6 +22,19 @@ Scikit-learn | Matplotlib | Streamlit
 The model uses the previous 60 trading days to predict
 the next stock closing price.
 
+## 📂 Project Structure
+
+Stock_Price_Prediction/
+
+- ├── app.py
+- ├── main_code.ipynb
+- ├── requirements.txt
+- ├── all_stocks_5yr.csv
+- ├── apple_stock_lstm.keras
+- ├── stock_scaler.pkl
+- ├── .gitignore
+- └── README.md
+
 ## 🌐 Live Demo
 
 [Live Demo](https://stock-price-prediction-lstm-pyyqhr7hd9wtstxcg8ycn5.streamlit.app/)
@@ -36,31 +49,29 @@ The application provides:
 - RMSE
 - MAE
 
-## 📂 Project Structure
+## 🔄 Workflow
 
-Stock_Price_Prediction/
-
-- ├── app.py
-- ├── main_code.ipynb
-- ├── requirements.txt
-- ├── all_stocks_5yr.csv
-- ├── apple_stock_lstm.keras
-- ├── stock_scaler.pkl
-- ├── .gitignore
-- └── README.md
-
-
-## 📊 Workflow
+```text
 Historical Stock Data
         ↓
-Data Preprocessing
+Data Cleaning & Preprocessing
+        ↓
+Select Apple (AAPL) Stock Data
+        ↓
+Extract Closing Prices
         ↓
 Min-Max Scaling
         ↓
-60-Day Sequences
+Create 60-Day Sequences
         ↓
-LSTM Model
+Train LSTM Model
         ↓
-Prediction
+Model Prediction
+        ↓
+Inverse Transform Predictions
+        ↓
+Evaluate using MSE & RMSE
         ↓
 Actual vs Predicted Visualization
+        ↓
+Deploy using StreamlitVisualization

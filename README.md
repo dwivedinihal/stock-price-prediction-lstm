@@ -39,15 +39,15 @@ The application provides:
 ## 📂 Project Structure
 
 Stock_Price_Prediction/
-│
-├── app.py
-├── main_code.ipynb
-├── requirements.txt
-├── all_stocks_5yr.csv
-├── apple_stock_lstm.keras
-├── stock_scaler.pkl
-├── .gitignore
-└── README.md
+
+- ├── app.py
+- ├── main_code.ipynb
+- ├── requirements.txt
+- ├── all_stocks_5yr.csv
+- ├── apple_stock_lstm.keras
+- ├── stock_scaler.pkl
+- ├── .gitignore
+- └── README.md
 
 
 ## 📊 Workflow
